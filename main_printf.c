@@ -58,32 +58,32 @@ int	main()
 	int		x = 45645;
 	int		X = 45645;
 
-	ft_printf("\t\x1b[32mft_printf: \x1b[0m%c\n", c);
-	printf("\t\x1b[35mprintf: \x1b[0m%c\n\n", c);
+	ft_printf("ft_printf: %c\n", c);
+	printf("printf: %c\n\n", c);
 
-	ft_printf("\t\x1b[32mft_printf: \x1b[0m%s\n", s);
-	printf("\t\x1b[35mprintf: \x1b[0m%s\n\n", s);
+	ft_printf("ft_printf: %s\n", s);
+	printf("printf: %s\n\n", s);
 
-	ft_printf("\t\x1b[32mft_printf: \x1b[0m%p\n", p);
-	printf("\t\x1b[35mprintf: \x1b[0m%p\n\n", p);
+	ft_printf("ft_printf: %p\n", p);
+	printf("printf: %p\n\n", p);
 
-	ft_printf("\t\x1b[32mft_printf: \x1b[0m%d\n", d);
-	printf("\t\x1b[35mprintf: \x1b[0m%d\n\n", d);
+	ft_printf("ft_printf: %d\n", d);
+	printf("printf: %d\n\n", d);
     
-	ft_printf("\t\x1b[32mft_printf: \x1b[0m%i\n", i);
-	printf("\t\x1b[35mprintf: \x1b[0m%i\n\n", i);
+	ft_printf("ft_printf: %i\n", i);
+	printf("printf: %i\n\n", i);
 
-	ft_printf("\t\x1b[32mft_printf: \x1b[0m%u\n", u);
-	printf("\t\x1b[35mprintf: \x1b[0m%u\n\n", u);
+	ft_printf("ft_printf: %u\n", u);
+	printf("printf: %u\n\n", u);
 
-	ft_printf("\t\x1b[32mft_printf: \x1b[0m%x\n", x);
-	printf("\t\x1b[35mprintf: \x1b[0m%x\n\n", x);
+	ft_printf("ft_printf: %x\n", x);
+	printf("printf: %x\n\n", x);
 
-	ft_printf("\t\x1b[32mft_printf: \x1b[0m%X\n", X);
-	printf("\t\x1b[35mprintf: \x1b[0m%X\n\n", X);
+	ft_printf("ft_printf: %X\n", X);
+	printf("printf: %X\n\n", X);
 
-	ft_printf("\t\x1b[32mft_printf: \x1b[0m%%\n");
-	printf("\t\x1b[35mprintf: \x1b[0m%%\n");
+	ft_printf("ft_printf: %%\n");
+	printf("printf: %%\n");
 
 	ft_printf("\n\n\n");
 
